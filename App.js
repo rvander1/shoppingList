@@ -22,43 +22,22 @@ export default function App() {
 
         <View style={styles.items}>
       
-          {/*This is where the itemes and pictures are added and sized!*/}
-          <Image
-          style={{ width: 35, height: 30, marginLeft: 10}}
-          source={require('./img/bananas.png')}
-          />
+          
           <List text={'Bananas'}
           />
-
-          <Image
-          style={{ width: 30, height: 38, marginLeft: 10, marginBottom: 5}}
-          source={require('./img/milk1.png')}
-          />  
+           
           <List text={'Milk'}/>
-
-          <Image
-          style={{ width: 40, height: 30, marginLeft: 10, marginBottom: 5}}
-          source={require('./img/bread2.png')}
-          />
+         
           
           <List text={'Bread'}/>
 
-          <Image
-          style={{ width: 40, height: 35, marginLeft: 10, marginBottom: 5}}
-          source={require('./img/flour2.png')}
-          />
+          
           <List text={'Flour'}/>
 
-          <Image
-          style={{ width: 47, height: 35, marginLeft: 5, marginBottom: 5}}
-          source={require('./img/sugar1.png')}
-          />
+          
           <List text={'Sugar'}/>
 
-          <Image
-          style={{ width: 47, height: 35, marginLeft: 10, marginBottom: 5}}
-          source={require('./img/eggs1.png')}
-          />
+          
           <List text={'Eggs'}
           />
           
